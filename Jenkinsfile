@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull code from your repository
-                git ''
+                git 'https://github.com/rakeshyadav1289/jenkins.git'
             }
         }
 
