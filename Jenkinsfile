@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent rakesh
     
     stages {
         // git clone stage
